@@ -13,7 +13,7 @@
     <DefaultItemExcludes>$(GeneratedSources)</DefaultItemExcludes>
   </PropertyGroup>
 
-  <ItemGroup Condition="'$(DesignTimeBuild)' == 'true' OR '$(BuildingProject)' != 'true'">
+  <ItemGroup Condition="'$(DesignTimeBuild)' == 'true'">
     <Compile Include="$(GeneratedSources)" Visible="false" />
   </ItemGroup>
 
